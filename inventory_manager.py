@@ -1,4 +1,4 @@
-def menu_options(option):
+def data_representation(option):
     print("==================================================")
     print("INVENTORY MANAGEMENT SYSTEM")
     print("==================================================\n")
@@ -14,7 +14,7 @@ def menu_options(option):
     print("6. Exit")
     print("---------------------------------\n")
 
-    user_input = option("Enter Option:")
+    user_input = option("Enter Option: ")
     return option
 
-menu_options(option=input)
+data_representation(option=input)
